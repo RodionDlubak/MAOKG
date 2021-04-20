@@ -337,7 +337,7 @@ public class Main extends Application {
     private Path getTrajectoryPath() throws IOException {
         int numberOfPixels = 0;
 
-        FileInputStream fileInputStream = new FileInputStream("./source/tra.bmp");
+        FileInputStream fileInputStream = new FileInputStream("./source/trajectory.bmp");
         BufferedInputStream bufferedInputStream = new BufferedInputStream(fileInputStream);
         HeaderBitmapImage image = new ReadingHeaderFromBitmapImage().Reading(bufferedInputStream);
         int width = (int) image.getWidth();

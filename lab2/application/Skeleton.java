@@ -1,4 +1,4 @@
-package lab2;
+package application;
 
 import javax.swing.*;
 
